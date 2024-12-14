@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request for White Paper</title>
+</head>
+<body>
+    <h2>Request for White Paper</h2>
+    <p>Please fill out the form below. If you have any questions, please e-mail <a href="mailto:white_paper@ektron.com">white_paper@ektron.com</a>.</p>
+    <p>* - required fields</p>
+    <form>
+        <!-- First Name -->
+        <label for="firstName">*First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br><br>
+
+        <!-- Last Name -->
+        <label for="lastName">*Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br><br>
+
+        <!-- Company Name -->
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName">
+        <br><br>
+
+        <!-- Company/Personal Website -->
+        <label for="website">Company/Personal Website:</label>
+        <input type="url" id="website" name="website">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">*Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="ext">Ext:</label>
+        <input type="text" id="ext" name="ext">
+        <br><br>
+
+        <!-- State/Province -->
+        <label for="state">State/Province:</label>
+        <select id="state" name="state">
+            <option value="">Select for USA or Canada Only</option>
+            <option value="alabama">Alabama</option>
+            <option value="california">California</option>
+            <option value="ontario">Ontario</option>
+            <option value="quebec">Quebec</option>
+        </select>
+        <br><br>
+
+        <!-- Country -->
+        <label for="country">*Country:</label>
+        <select id="country" name="country" required>
+            <option value="united-states">United States</option>
+            <option value="canada">Canada</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- Comments -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Request White Paper</button>
+    </form>
+</body>
+</html>

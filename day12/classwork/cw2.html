@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: lightgray;
+        }
+        h2 {
+            text-align: center;
+        }
+        .total {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Product List</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Extended</th>
+        </tr>
+        <tr>
+            <td>Hard Disk</td>
+            <td>1</td>
+            <td>500$</td>
+            <td>400$</td>
+        </tr>
+        <tr>
+            <td>Cd Drive</td>
+            <td>1</td>
+            <td>200$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>Cds</td>
+            <td>10</td>
+            <td>20$</td>
+            <td>50$</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="total">Total Amount</td>
+            <td class="total">950 $</td>
+        </tr>
+    </table>
+</body>
+</html>

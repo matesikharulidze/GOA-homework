@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style>
+        fieldset {
+            margin-bottom: 20px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        input, textarea, select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Admission Form</h2>
+
+    <!-- Login Details -->
+    <fieldset>
+        <legend>Login Details</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </fieldset>
+
+    <!-- Personal Details -->
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="motherName">Mother's Name:</label>
+        <input type="text" id="motherName" name="motherName"><br>
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" id="fatherName" name="fatherName"><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </fieldset>
+
+    <!-- Contact Details -->
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber"><br>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50">Enter Address...</textarea><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+        </select>
+    </fieldset>
+
+    <!-- Academic Details -->
+    <fieldset>
+        <legend>Academic Details</legend>
+        <label for="class10marks">10<sup>th</sup> Class Marks:</label>
+        <input type="text" id="class10marks" name="class10marks">
+        <label for="class10board">Board:</label>
+        <input type="text" id="class10board" name="class10board">
+        <label for="class10school">School Name:</label>
+        <input type="text" id="class10school" name="class10school"><br>
+        <label for="class12marks">12<sup>th</sup> Class Marks:</label>
+        <input type="text" id="class12marks" name="class12marks">
+        <label for="class12board">Board:</label>
+        <input type="text" id="class12board" name="class12board">
+        <label for="class12school">School Name:</label>
+        <input type="text" id="class12school" name="class12school">
+    </fieldset>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+</body>
+</html>
