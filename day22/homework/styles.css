@@ -1,0 +1,58 @@
+/* External სტილები */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f3e9;
+}
+
+/* HEADER */
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px;
+}
+
+.menu, .about {
+    margin-bottom: 20px;
+}
+
+.menu h2, .about h2 {
+    color: #6b4226;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: #6b4226;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffe4c4;
+    text-decoration: none;
+}
