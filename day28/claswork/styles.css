@@ -1,0 +1,25 @@
+
+        .div1 {
+            width: 150px;
+            height: 150px;
+            border: 2px dashed black;
+            border-radius: 10px;
+            background-color: lightblue;
+            position: absolute;
+            top:  200px;
+            left:  300px;
+            bottom:  50px;
+        }
+
+        .div2 {
+            width: 150px;
+            height: 150px;
+            border: 10px dotted black;
+            border-radius: 10px;
+            background-color: lightcoral;
+            position:static ;
+            top: 400px;
+            left: 500px;
+            bottom: 100px;
+        }
+ 
