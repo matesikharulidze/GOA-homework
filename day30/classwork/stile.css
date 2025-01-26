@@ -1,0 +1,21 @@
+.div1{
+ 
+    width: 400px; ;
+    height: 500px;
+    border:  5px solid red
+    
+
+}
+
+.diva2{
+    
+    
+    background-image: url(download.png);
+
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+
