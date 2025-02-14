@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Pink Table */
+.pink {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+.pink table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pink th {
+    background-color: #e91e63;
+    color: white;
+}
+
+/* Green Table */
+.green {
+    background: linear-gradient(135deg, #0cebeb, #20e3b2, #29ffc6);
+}
+
+.green th {
+    background-color: #008080;
+    color: white;
+}
+
+/* Dark Table */
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.dark table {
+    background-color: #1a1a1a;
+}
+
+.dark th {
+    background-color: #333;
+    color: white;
+}
+
+.dark td {
+    color: white;
+}
+
+.dark .highlight {
+    background-color: yellow;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>HOW TO DESIGN YOUR TABLES USING HTML5 & CSS3</h1>
+
+    <div class="table-container pink">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NOM</th>
+                    <th>PRENOM</th>
+                    <th>IDENTIFIANT</th>
+                    <th>DATE DE NAISSANCE</th>
+                    <th>SALAIRE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Jean</td><td>leBon</td><td>1368</td><td>18 Nov 1962</td><td>5000$</td></tr>
+                <tr><td>2</td><td>Jack</td><td>Dupont</td><td>1368</td><td>18 Dec 1962</td><td>2000$</td></tr>
+                <tr><td>3</td><td>Jean</td><td>leBon</td><td>1368</td><td>18 Nov 1972</td><td>4200$</td></tr>
+                <tr><td>4</td><td>Nadia</td><td>leBon</td><td>1368</td><td>18 Mar 1982</td><td>6300$</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Fixed Table Header</h2>
+
+    <div class="table-container green">
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Price</th>
+                    <th>Change</th>
+                    <th>Change %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>AUSTRALIAN COMPANY</td><td>$1.38</td><td>+2.01</td><td>-0.36%</td></tr>
+                <tr><td>AUSENCO</td><td>$2.38</td><td>-0.01</td><td>-1.36%</td></tr>
+                <tr><td>ADELAIDE</td><td>$3.22</td><td>+0.01</td><td>+1.36%</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Dark Mode Table</h2>
+
+    <div class="table-container dark">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sites</th>
+                    <th>Views</th>
+                    <th>Clicks</th>
+                    <th>Average</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Google</td><td>9518</td><td>6369</td><td class="highlight">01:32:50</td></tr>
+                <tr><td>Twitter</td><td>7326</td><td>10437</td><td>00:51:22</td></tr>
+                <tr><td>Amazon</td><td>4162</td><td>5327</td><td>00:24:34</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

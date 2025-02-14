@@ -1,0 +1,39 @@
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:link {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+a:visited {
+    background-color: lightgray;
+}
+
+/* active link */
+a:active {
+    color: red;
+}
+
+a:active {
+    transform: scale(1.1);
+}
+
+/* hovered link */
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: yellow;
+    cursor: pointer;
+}

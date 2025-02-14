@@ -1,2 +1,4 @@
-for number in range(100, -1, -1):    
-      print(number)
+
+for number in range(1, 51):
+    if number % 2 != 0:  
+        print(number)
