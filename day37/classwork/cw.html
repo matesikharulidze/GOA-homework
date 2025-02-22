@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ვებგვერდის სათაური</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        .section {
+            padding: 100px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .static-section {
+            position: static;
+            background-color: lightgray;
+        }
+        .relative-section {
+            position: relative;
+            left: 20px;
+            top: 20px;
+            background-color: lightblue;
+        }
+        .absolute-container {
+            position: relative;
+            height: 200px;
+            background-color: lightgreen;
+        }
+        .absolute-box {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            background-color: coral;
+            padding: 10px;
+        }
+        .sticky-section {
+            height: 400px;
+            background-color: lightcoral;
+        }
+        .sticky-element {
+            position: sticky;
+            top: 10px;
+            background-color: yellow;
+            padding: 10px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ვებგვერდის სათაური</h1>
+        <nav>ნავიგაცია</nav>
+    </header>
+    <div class="section static-section">
+        <h2>Static პოზიციონირება</h2>
+        <p>ეს არის ნაგულისხმევი პოზიციონირება.</p>
+    </div>
+    <div class="section relative-section">
+        <h2>Relative პოზიციონირება</h2>
+        <p>ეს ელემენტი გადანაცვლებულია.</p>
+    </div>
+    <div class="section absolute-container">
+        <h2>Absolute პოზიციონირება</h2>
+        <div class="absolute-box">აბსოლუტურად პოზიციონირებული ბლოკი</div>
+    </div>
+    <div class="section sticky-section">
+        <h2 class="sticky-element">Sticky ელემენტი</h2>
+        <p>გადმოწიეთ გვერდი, რომ დაინახოთ როგორ რჩება ეს ელემენტი ხილვადი.</p>
+    </div>
+    <footer>
+        ფიქსირებული ქვედა ელემენტი
+    </footer>
+</body>
+</html>
